@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/putih"
+    tools:context=".HalamanUtamaActivity">
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+        <Button
+            android:layout_marginLeft="15dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/ic_keyboard_backspace_black_24dp"/>
+
+        <TextView
+            android:id="@+id/kampuspintar"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Kampus Pintar"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:background="@drawable/header_kampus"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/topkampus"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:text="Top 10 Kampus Terbaik "
+            android:textColor="@color/putih" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:id="@+id/btn_itb"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="240dp"
+                        android:layout_height="140dp"
+                        android:background="@drawable/btn_itb"/>
+
+                    <ImageButton
+                        android:id="@+id/btn_ugm"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="240dp"
+                        android:layout_height="140dp"
+                        android:background="@drawable/btn_ugm"/>
+
+                    <ImageButton
+                        android:id="@+id/btn_ipb"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="240dp"
+                        android:layout_height="140dp"
+                        android:background="@drawable/btn_ipb"/>
+
+                    <ImageButton
+                        android:id="@+id/btn_its"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="240dp"
+                        android:layout_height="140dp"
+                        android:background="@drawable/btn_its"/>
+
+                    <ImageButton
+                        android:id="@+id/btn_ui"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="240dp"
+                        android:layout_height="140dp"
+                        android:background="@drawable/btn_ui"/>
+
+                    <ImageButton
+                        android:id="@+id/btn_undip"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="240dp"
+                        android:layout_height="140dp"
+                        android:background="@drawable/btn_undip"/>
+
+                    <ImageButton
+                        android:id="@+id/btn_unair"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="240dp"
+                        android:layout_height="140dp"
+                        android:background="@drawable/btn_unair"/>
+
+                    <ImageButton
+                        android:id="@+id/btn_unhas"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="240dp"
+                        android:layout_height="140dp"
+                        android:background="@drawable/btn_unhas"/>
+
+                    <ImageButton
+                        android:id="@+id/btn_ub"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="240dp"
+                        android:layout_height="140dp"
+                        android:background="@drawable/btn_ub"/>
+
+                    <ImageButton
+                        android:id="@+id/btn_unpad"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="240dp"
+                        android:layout_height="140dp"
+                        android:background="@drawable/btn_unpad"/>
+
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:orientation="vertical">
+            
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+
+            <TextView
+                android:id="@+id/baru_dilihat"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:paddingLeft="10dp"
+                android:text="Baru saja dilihat"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/lihat_semua"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="130dp"
+                android:layout_height="30dp"
+                android:text="Lihat Semua"
+                android:textColor="@color/biru"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageButton
+                            android:layout_marginLeft="10dp"
+                            android:layout_width="240dp"
+                            android:layout_height="140dp"
+                            android:background="@drawable/btn_ui"/>
+
+                        <ImageButton
+                            android:layout_marginLeft="20dp"
+                            android:layout_width="240dp"
+                            android:layout_height="140dp"
+                            android:background="@drawable/btn_ub"/>
+
+                        <ImageButton
+                            android:layout_marginLeft="20dp"
+                            android:layout_width="240dp"
+                            android:layout_height="140dp"
+                            android:background="@drawable/btn_its"/>
+
+                        <ImageButton
+                            android:layout_marginLeft="20dp"
+                            android:layout_width="240dp"
+                            android:layout_height="140dp"
+                            android:background="@drawable/btn_ugm"/>
+
+                        <ImageButton
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_width="240dp"
+                            android:layout_height="140dp"
+                            android:background="@drawable/btn_unair"/>
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+            </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
