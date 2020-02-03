@@ -1,4 +1,4 @@
-package com.fadelmohamad.akupintar;
+package com.fadelmohamad.akupintar.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,13 +8,15 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
-public class MainActivity extends AppCompatActivity {
+import com.fadelmohamad.akupintar.R;
+
+public class SplashScreenActivity extends AppCompatActivity {
     private ImageView iv;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_splash_screen);
 
         iv = (ImageView) findViewById(R.id.iv);
         Animation myanim = AnimationUtils.loadAnimation(this, R.anim.mytransiton);
